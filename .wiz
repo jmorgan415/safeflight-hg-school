@@ -2,5 +2,5 @@ ignore:
   vulnerabilities:
     CVE-2023-7080:
       /package.json:
-        reason: BY_DESIGN
+        reason: EXCEPTION
         expires: 2025-12-12T00:00:00Z
