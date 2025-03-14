@@ -31,7 +31,7 @@ resource "azurerm_mssql_server" "server" {
   location                      = azurerm_resource_group.rg.location
   administrator_login           = var.admin_username
   administrator_login_password  = local.admin_password
-  version                       = "12.0"
+  version                       = "11.0"
   public_network_access_enabled = true
 }
 
